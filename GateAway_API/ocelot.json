@@ -9,7 +9,24 @@
           "Port": 7280
         }
       ],
-      "UpstreamPathTemplate":"/getAll",
+      "UpstreamPathTemplate": "/getAll",
+      "UpstreamHttpMethod": [ "Get" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:5000"
+  },
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Directors/GetAll",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7280
+        }
+      ],
+      "UpstreamPathTemplate": "/getAll",
       "UpstreamHttpMethod": [ "Get" ]
     }
   ],
