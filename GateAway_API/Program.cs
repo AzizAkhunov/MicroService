@@ -31,7 +31,7 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 //uni ishlatib qo'yamiz
-app.UseOcelot().Wait();
+app.UseOcelot();
 
 app.MapControllers();
 
