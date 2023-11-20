@@ -9,14 +9,14 @@ namespace Student.Api.Controllers
     public class StudentController : ControllerBase
     {
         private readonly AppDbContext _appDbContext;
-        public DirectorsController(AppDbContext appDbContext)
+        public StudentController(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
         }
         [HttpGet]
         public async ValueTask<IActionResult> GetAll()
         {
-            IEnumerable<DirectorApi.Domain.Models.Director> directors = await _appDbContext.Directors.ToListAsync();
+            IEnumerable<> directors = await _appDbContext.Directors.ToListAsync();
             if (directors is not null)
             {
                 return Ok(directors);
