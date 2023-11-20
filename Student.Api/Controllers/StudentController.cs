@@ -1,14 +1,12 @@
 ﻿using DirectorApi.DataAccess.ApplicationDbContext;
-using DirectorApi.Domain.Dtos;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
-namespace Director.Api.Controllers
+namespace Student.Api.Controllers
 {
-    [Route("api/[controller]/[action]")]
+    [Route("api/[controller]/action")]
     [ApiController]
-    public class DirectorsController : ControllerBase
+    public class StudentController : ControllerBase
     {
         private readonly AppDbContext _appDbContext;
         public DirectorsController(AppDbContext appDbContext)
@@ -74,4 +72,5 @@ namespace Director.Api.Controllers
             return new DirectorApi.Domain.Models.Director();
         }
     }
+}
 }

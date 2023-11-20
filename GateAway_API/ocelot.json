@@ -11,9 +11,35 @@
       ],
       "UpstreamPathTemplate": "/getAll",
       "UpstreamHttpMethod": [ "Get" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Directors/DeleteById?id={Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7280
+        }
+      ],
+      "UpstreamPathTemplate": "/DeleteById/{Id}",
+      "UpstreamHttpMethod": [ "Delete" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/Directors/GetById?id={Id}",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7280
+        }
+      ],
+      "UpstreamPathTemplate": "/GetById/{Id}",
+      "UpstreamHttpMethod": [ "Get" ]
     }
   ],
-  "GlobalConfiguration": {
-    "BaseUrl": "https://localhost:5000"
-  }
+    "GlobalConfiguration":
+    {
+      "BaseUrl": "https://localhost:5000"
+    }
+
 }
