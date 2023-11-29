@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  gateaway_api:
+    image: ${DOCKER_REGISTRY-}gateawayapi
+    build:
+      context: .
+      dockerfile: GateAway_API/Dockerfile

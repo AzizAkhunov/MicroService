@@ -21,23 +21,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DirectorService", "Director
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Director.Api", "Director.Api\Director.Api.csproj", "{611654A5-4089-4C67-8485-B2C720BB74B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorApi.DataAccess", "DirectorApi.DataAccess\DirectorApi.DataAccess.csproj", "{E7925DF7-B913-4800-A22B-30A9F32911B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectorApi.DataAccess", "DirectorApi.DataAccess\DirectorApi.DataAccess.csproj", "{E7925DF7-B913-4800-A22B-30A9F32911B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorApi.Domain", "DirectorApi.Domain\DirectorApi.Domain.csproj", "{72782AD3-C210-4EA8-A4D4-140C5FCBCF42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectorApi.Domain", "DirectorApi.Domain\DirectorApi.Domain.csproj", "{72782AD3-C210-4EA8-A4D4-140C5FCBCF42}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectorApi.Service", "DirectorApi.Service\DirectorApi.Service.csproj", "{0BF8DD0F-A653-4351-983A-ADB3B297EBB4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DirectorApi.Service", "DirectorApi.Service\DirectorApi.Service.csproj", "{0BF8DD0F-A653-4351-983A-ADB3B297EBB4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApi.DataAccess", "StudentApi.DataAccess\StudentApi.DataAccess.csproj", "{D5403187-A331-41F9-95C3-4A29478964F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApi.DataAccess", "StudentApi.DataAccess\StudentApi.DataAccess.csproj", "{D5403187-A331-41F9-95C3-4A29478964F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApi.Domain", "StudentApi.Domain\StudentApi.Domain.csproj", "{AB430742-CDB2-4489-A6EF-36038B76912C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApi.Domain", "StudentApi.Domain\StudentApi.Domain.csproj", "{AB430742-CDB2-4489-A6EF-36038B76912C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentApi.Service", "StudentApi.Service\StudentApi.Service.csproj", "{F39D9F6C-12FB-413A-96DE-758EB7022520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StudentApi.Service", "StudentApi.Service\StudentApi.Service.csproj", "{F39D9F6C-12FB-413A-96DE-758EB7022520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherApi.DataAccess", "TeacherApi.DataAccess\TeacherApi.DataAccess.csproj", "{8DA628A1-0D1F-4F83-BFC8-8EC4546F0493}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherApi.DataAccess", "TeacherApi.DataAccess\TeacherApi.DataAccess.csproj", "{8DA628A1-0D1F-4F83-BFC8-8EC4546F0493}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherApi.Domain", "TeacherApi.Domain\TeacherApi.Domain.csproj", "{0FD7170E-E269-44F0-AD46-B82BA06AA2D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherApi.Domain", "TeacherApi.Domain\TeacherApi.Domain.csproj", "{0FD7170E-E269-44F0-AD46-B82BA06AA2D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeacherApi.Service", "TeacherApi.Service\TeacherApi.Service.csproj", "{9F78AF79-B382-419B-BB2F-86630562F149}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TeacherApi.Service", "TeacherApi.Service\TeacherApi.Service.csproj", "{9F78AF79-B382-419B-BB2F-86630562F149}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{FEBA8168-4E0C-4472-8F7B-1AEADB1514A7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +99,10 @@ Global
 		{9F78AF79-B382-419B-BB2F-86630562F149}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F78AF79-B382-419B-BB2F-86630562F149}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F78AF79-B382-419B-BB2F-86630562F149}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBA8168-4E0C-4472-8F7B-1AEADB1514A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBA8168-4E0C-4472-8F7B-1AEADB1514A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBA8168-4E0C-4472-8F7B-1AEADB1514A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBA8168-4E0C-4472-8F7B-1AEADB1514A7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
