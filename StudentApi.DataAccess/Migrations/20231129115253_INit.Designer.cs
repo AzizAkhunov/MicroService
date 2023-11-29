@@ -11,8 +11,8 @@ using StudentApi.DataAccess.DbContexts;
 namespace StudentApi.DataAccess.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20231120141016_init")]
-    partial class init
+    [Migration("20231129115253_INit")]
+    partial class INit
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
